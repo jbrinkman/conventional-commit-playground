@@ -1,0 +1,17 @@
+{
+  "name": "conventional-commit",
+  "version": "0.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warn: no test specified\"",
+    "prepare": "husky install"
+  },
+  "author": "Joe Brinkman",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "husky": "^8.0.0"
+  }
+}
