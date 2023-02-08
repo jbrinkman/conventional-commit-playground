@@ -7,11 +7,16 @@
     "test": "echo \"Warn: no test specified\"",
     "prepare": "husky install"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbrinkman/conventional-commit-playground.git"
+  },
   "author": "Joe Brinkman",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "semantic-release": "^19.0.5"
   }
 }
