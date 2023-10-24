@@ -4,7 +4,13 @@ on:
     branches:
       - master
       - next
-
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry Run"
+        required: false
+        default: false
+        type: boolean
 permissions:
   contents: read # for checkout
 
@@ -33,5 +39,10 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        if: ${{ ! dry_run }}
         run: npx semantic-release
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{ dry_run }}
+        run: npx semantic-release --dry-run
