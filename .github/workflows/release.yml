@@ -39,10 +39,10 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: ${{ ! dry_run }}
+        if: ${{ ! inputs.dry_run }}
         run: npx semantic-release
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: ${{ dry_run }}
+        if: ${{ inputs.dry_run }}
         run: npx semantic-release --dry-run
