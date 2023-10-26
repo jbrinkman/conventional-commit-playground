@@ -1,24 +1,39 @@
-# Conventional Commits
+---
+author: Joe Brinkman
+theme:
+  path: ./theme.yml
+---
+![alt text](title.png "Title")
+
+<!-- end_slide -->
+
+![Joe Brinkman About](about.png "About Me : Joe Brinkman")
+
+<!-- end_slide -->
+Conventional Commits
+---
 
 * Lightweight convention
 * Provides an easy set of rules
 * Describe the features, fixes, and breaking changes made.
 
+<!-- end_slide -->
+Conventional Commits
 ---
-# Conventional Commits
 
 * Structured as follows:
 
 ``` markdown
 <type>[optional scope]: <description>
 ```
-
+<!-- pause -->
 * `<type>`: fix, feat, docs, style, refactor, test, chore, ci, perf, build, or revert
 * `<scope>`: Provides context of area of code change
 * `<description>`: A description of the change
 
+<!-- end_slide -->
+Conventional Commits
 ---
-# Conventional Commits
 
 ## Why?
 
@@ -28,34 +43,38 @@
 
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
+<!-- end_slide -->
+Commitlint
 ---
-# Commitlint
 
 * Commitlint checks if commit messages meet the conventional commit format
 * You control formatting rules
 
+<!-- pause -->
 example:
 ``` bash
 ❯ echo "foo: some message" | commitlint
 
 ⧗   input: foo: bar
-✖   type must be one of [build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test] [type-enum]
+✖   type must be one of 
+      [build, chore, ci, docs, feat, fix, ...] [type-enum]
 
 ✖   found 1 problems, 0 warnings
-ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
 ```
 
-[Commitlint](https://commitlint.js.org/#/)
+[Commitlint](https://commitlint.js.org/)
+<!-- end_slide -->
+Git Hooks
 ---
-# Git Hooks
 
 * Scripts that run before or after certain git commands
 * Can be used to run tests before pushing to remote
 * Can be used to enforce code style
 * Can be used to enforce commit message conventions
 
+<!-- end_slide -->
+Git Hooks
 ---
-# Git Hooks
 
 ## Problematic
 
@@ -64,16 +83,18 @@ example:
 * Not portable across team members
 
 [Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+<!-- end_slide -->
+Husky
 ---
-# Husky
 
 * Allows you to store git hooks in your repository
 * Supports all client-side git hooks
 
 [Husky](https://typicode.github.io/husky/)
----
+<!-- end_slide -->
 
-# Semantic Versioning
+Semantic Versioning
+---
 
 * A standard for versioning software
 * Provides a way to communicate the impact of changes
@@ -82,8 +103,9 @@ example:
 
 [SemVer](https://semver.org/)
 
+<!-- end_slide -->
+Semantic Release
 ---
-# Semantic Release
 
 * A tool that automates the release process
 * Determines the next version number based on commit messages
@@ -92,8 +114,9 @@ example:
 
 [Semantic Release](https://semantic-release.gitbook.io/semantic-release/)
 
+<!-- end_slide -->
+GitHub Actions
 ---
-# GitHub Actions
 
 * Automate workflows
 * Can be used to run tests, build, and deploy
