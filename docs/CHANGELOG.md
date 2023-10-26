@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/jbrinkman/conventional-commit-playground/compare/v1.2.0...v1.2.1) (2023-10-26)
+
+
+### Bug Fixes
+
+* includes docs and slides in release ([bb48295](https://github.com/jbrinkman/conventional-commit-playground/commit/bb482953ed8ab1e26b1c96e94a66bafb9bd8521a))
+
 # [1.2.0](https://github.com/jbrinkman/conventional-commit-playground/compare/v1.1.0...v1.2.0) (2023-10-26)
 
 
