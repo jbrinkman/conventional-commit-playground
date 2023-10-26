@@ -7,7 +7,7 @@
   "scripts": {
     "build": "node esbuild.cjs",
     "test": "echo \"Warn: no test specified\"",
-    "prepare": "husky install"
+    "prepare": "is-ci || husky install"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "@semantic-release/git": "^10.0.1",
     "esbuild": "^0.19.5",
     "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
     "semantic-release": "^22.0.5"
   }
 }
