@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/jbrinkman/conventional-commit-playground/compare/v1.2.1...v1.3.0) (2024-04-04)
+
+
+### Features
+
+* make generic slides ([b574c77](https://github.com/jbrinkman/conventional-commit-playground/commit/b574c77dc79509b9c1556a34b3f9dfc32d6058d4))
+
 ## [1.2.1](https://github.com/jbrinkman/conventional-commit-playground/compare/v1.2.0...v1.2.1) (2023-10-26)
 
 
