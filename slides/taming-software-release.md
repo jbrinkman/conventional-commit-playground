@@ -1,15 +1,36 @@
 ---
-author: Joe Brinkman
 theme:
   path: ./theme.yml
 ---
-![alt text](title.png "Title")
+![alt text](title-generic.png "Title")
 
 <!-- end_slide -->
 
 ![Joe Brinkman About](about.png "About Me : Joe Brinkman")
 
 <!-- end_slide -->
+About Improving
+---
+<!-- column_layout: [4, 2] -->
+<!-- column: 0 -->
+## Improving is Hiring!
+
+* **Account Executive**
+* **React Developers**
+* **Mobile Developers**
+* **Automation Test Engineer**
+* **Full Stack Developers**
+* **Cloud Engineers**
+
+See additional open positions at https://improving.com/careers/open-positions
+
+<!-- column: 1 -->
+## Chance to Win!
+![Attendee Raffle](QRCode-cledevops.png)
+
+<!-- reset_layout -->
+<!-- end_slide -->
+
 Conventional Commits
 ---
 

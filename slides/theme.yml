@@ -80,5 +80,5 @@ block_quote:
 
 footer: 
   style: template
-  left: "My name is {author}"
+  left: "Improving - Taming Software Releases"
   right: "{current_slide} / {total_slides}"
